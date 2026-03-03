@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    padding-bottom: 700px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    margin: 20px 0px 20px;
+}
+
+.grid-row{
+    display: flex;
+    background-color: black;
+}
+
+.grid-item{
+    background-color: white;
+    padding:10px;
+    border:1px solid black;
+    flex: 0 1;
+}
+
+
