@@ -34,7 +34,10 @@ gridSizeButton.addEventListener('click',() => {
     while (grid.firstChild){
         grid.removeChild(grid.firstChild)
     };
+    // if exceed 100 or below 0, create the default grid
+    if (gridSize > 0 && gridSize < 101){
     gridMaker(gridSize);
+    }else gridMaker(16);
 });
 
 

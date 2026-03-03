@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     background-color: #111111;
-    padding-bottom: 700px;
+    padding-bottom: 200px;
     gap:25px
 }
 
@@ -23,18 +23,20 @@
     flex-direction: column;
     background-color: #111111;
     margin: 20px 0px 20px;
+    height: 450px;
 }
 
 .grid-row{
     display: flex;
     background-color: black;
+    width: 450px;
+    flex:1 1;
 }
 
 .grid-item{
     background-color: white;
-    padding:10px;
     border:1px solid black;
-    flex: 0 1;
+    flex: 1 1;
 }
 
 .button-list{
