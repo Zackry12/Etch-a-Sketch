@@ -10,14 +10,13 @@ for (let i=1;i<17;i++){
     for (let i=1;i<17;i++){
         const gridItem = document.createElement('div');
         gridItem.classList.add('grid-item');
+        gridItem.addEventListener('mouseover',() => gridItem.style.backgroundColor = 'red')
         gridRow.appendChild(gridItem);
     }
     gridRow.classList.add('grid-row');
     grid.appendChild(gridRow)
 }
 
-for (let i=1;i<17;i++){
-    
-}
+
 
 container.appendChild(grid);
